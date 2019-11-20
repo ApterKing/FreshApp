@@ -1,0 +1,52 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+target 'Fresh' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SwiftX', :path => '../../SwiftX', :subspecs => [
+    'Globals',
+    'Cache',
+  ]
+
+  pod 'FBusiness', :path => '../', :subspecs => [
+#    'Core',
+    'Base',
+    'Config',
+    'Home',
+    'Category',
+    'Car',
+    'Mine',
+    'Login',
+  ]
+  
+  target 'FreshTests' do
+    inherit! :search_paths
+  end
+
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        puts "#{target.name}"
+        if ['Toaster'].include? target.name
+            target.build_configurations.each do |config|
+                config.build_settings['SWIFT_VERSION'] = '4.0'
+                config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+            end
+        else
+            target.build_configurations.each do |config|
+                config.build_settings['SWIFT_VERSION'] = '4.2'
+                config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+            end
+        end
+        
+        if target.name == 'FBusiness'
+          target.build_configurations.each do |config|
+            config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['-D','FRESH_CLIENT']
+            config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)','FRESH_CLIENT=1']
+          end
+        end
+    end
+end

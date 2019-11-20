@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoginThirdPartyView" customModule="FBusiness" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="217"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cl9-Nd-LOH">
+                    <rect key="frame" x="15" y="19.5" width="345" height="1"/>
+                    <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="JZ0-I2-neY"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="快捷登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74b-lD-Z99">
+                    <rect key="frame" x="152.5" y="0.0" width="70" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="X9i-ru-h7p"/>
+                        <constraint firstAttribute="width" constant="70" id="tpy-h2-dWr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCL-GU-Zzf">
+                    <rect key="frame" x="162.5" y="98.5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="BCL-GU-Zzf" secondAttribute="height" id="NLV-hs-syD"/>
+                        <constraint firstAttribute="width" constant="50" id="aCk-sn-LZE"/>
+                    </constraints>
+                    <state key="normal" image="icon_login_wechat.png"/>
+                    <connections>
+                        <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="9zy-mf-Fnz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeS-SJ-xAm">
+                    <rect key="frame" x="62.5" y="98.5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="5ON-T7-Npl"/>
+                        <constraint firstAttribute="width" secondItem="oeS-SJ-xAm" secondAttribute="height" id="HNq-IP-0jg"/>
+                        <constraint firstAttribute="height" constant="50" id="bvr-WW-Kwl"/>
+                    </constraints>
+                    <state key="normal" image="icon_login_qq.png"/>
+                    <connections>
+                        <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="OmH-r5-5op"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amx-fv-CIe">
+                    <rect key="frame" x="262.5" y="98.5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="amx-fv-CIe" secondAttribute="height" id="rVb-Wc-rQh"/>
+                        <constraint firstAttribute="width" constant="50" id="sr4-sF-1qf"/>
+                    </constraints>
+                    <state key="normal" image="icon_login_weibo.png"/>
+                    <connections>
+                        <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="gdB-Hk-Rlo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="BCL-GU-Zzf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="H3P-ZL-7EE"/>
+                <constraint firstItem="BCL-GU-Zzf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="15" id="K9j-U0-Iuq"/>
+                <constraint firstItem="74b-lD-Z99" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="UUJ-Gp-L7C"/>
+                <constraint firstItem="amx-fv-CIe" firstAttribute="leading" secondItem="BCL-GU-Zzf" secondAttribute="trailing" constant="50" id="V4i-zw-mhC"/>
+                <constraint firstItem="BCL-GU-Zzf" firstAttribute="centerY" secondItem="oeS-SJ-xAm" secondAttribute="centerY" id="cV3-n5-75S"/>
+                <constraint firstItem="amx-fv-CIe" firstAttribute="centerY" secondItem="BCL-GU-Zzf" secondAttribute="centerY" id="dAb-xm-LUn"/>
+                <constraint firstItem="74b-lD-Z99" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fal-kN-6SV"/>
+                <constraint firstAttribute="trailing" secondItem="Cl9-Nd-LOH" secondAttribute="trailing" constant="15" id="od7-6r-QUJ"/>
+                <constraint firstItem="Cl9-Nd-LOH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="tjz-14-LRf"/>
+                <constraint firstItem="BCL-GU-Zzf" firstAttribute="leading" secondItem="oeS-SJ-xAm" secondAttribute="trailing" constant="50" id="vDS-Lo-oQH"/>
+                <constraint firstItem="74b-lD-Z99" firstAttribute="centerY" secondItem="Cl9-Nd-LOH" secondAttribute="centerY" id="vP3-OM-NRj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="397.60000000000002" y="-326.08695652173918"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_login_qq.png" width="90" height="90"/>
+        <image name="icon_login_wechat.png" width="90" height="90"/>
+        <image name="icon_login_weibo.png" width="90" height="90"/>
+    </resources>
+</document>

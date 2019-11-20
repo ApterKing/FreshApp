@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="FBusiness" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="124" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="124" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_home_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="j3k-sC-0bw">
+                        <rect key="frame" x="27" y="13" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="j3k-sC-0bw" secondAttribute="height" multiplier="1:1" id="Km1-ow-HVs"/>
+                            <constraint firstAttribute="width" constant="70" id="Seb-b9-h0d"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三鲜名称" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guC-hc-Lv9">
+                        <rect key="frame" x="8" y="91" width="108" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="j3k-sC-0bw" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="MnF-3h-AyF"/>
+                <constraint firstItem="j3k-sC-0bw" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-10" id="VcO-BD-peg"/>
+                <constraint firstAttribute="trailing" secondItem="guC-hc-Lv9" secondAttribute="trailing" constant="8" id="ZAY-Qc-CPq"/>
+                <constraint firstItem="guC-hc-Lv9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="dba-rs-EkS"/>
+                <constraint firstItem="guC-hc-Lv9" firstAttribute="top" secondItem="j3k-sC-0bw" secondAttribute="bottom" constant="8" id="nC3-DW-MVE"/>
+            </constraints>
+            <size key="customSize" width="124" height="116"/>
+            <connections>
+                <outlet property="imageView" destination="j3k-sC-0bw" id="pOx-Rd-iFd"/>
+                <outlet property="imageWidthConstraint" destination="Seb-b9-h0d" id="jfe-8o-u3G"/>
+                <outlet property="titleLabel" destination="guC-hc-Lv9" id="4Rz-av-87p"/>
+            </connections>
+            <point key="canvasLocation" x="196.80000000000001" y="158.32083958020991"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_home_default.png" width="749" height="360"/>
+    </resources>
+</document>

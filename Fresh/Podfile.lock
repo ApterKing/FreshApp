@@ -1,0 +1,429 @@
+PODS:
+  - FBusiness/Base (0.0.1):
+    - FBusiness/Base/Http (= 0.0.1)
+    - FBusiness/Base/Model (= 0.0.1)
+    - FBusiness/Base/Utilities (= 0.0.1)
+    - FBusiness/Base/View (= 0.0.1)
+    - FBusiness/Base/VModel (= 0.0.1)
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Base/Http (0.0.1):
+    - FBusiness/Base/Utilities
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/JSON
+    - SwiftX/NetworkRx
+  - FBusiness/Base/Model (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+  - FBusiness/Base/Utilities (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Base/View (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - Segmentio
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/Globals
+    - SwiftX/ThirdParty/Kingfisher
+    - SwiftX/ThirdParty/Realm
+    - SwiftX/ThirdParty/Toaster
+    - SwiftX/View
+  - FBusiness/Base/VModel (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Car (0.0.1):
+    - FBusiness/Car/Model (= 0.0.1)
+    - FBusiness/Car/View (= 0.0.1)
+    - FBusiness/Car/VModel (= 0.0.1)
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Car/Model (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+  - FBusiness/Car/View (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Car/VModel (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Category (0.0.1):
+    - FBusiness/Category/Model (= 0.0.1)
+    - FBusiness/Category/View (= 0.0.1)
+    - FBusiness/Category/VModel (= 0.0.1)
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Category/Model (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+  - FBusiness/Category/View (0.0.1):
+    - FBusiness/Common
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Cache
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Category/VModel (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common (0.0.1):
+    - FBusiness/Common/Address (= 0.0.1)
+    - FBusiness/Common/Goods (= 0.0.1)
+    - FBusiness/Common/HouseKeeping (= 0.0.1)
+    - FBusiness/Common/Message (= 0.0.1)
+    - FBusiness/Common/Order (= 0.0.1)
+    - FBusiness/Common/Search (= 0.0.1)
+    - FBusiness/Common/Splash (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Address (0.0.1):
+    - FBusiness/Common/Address/View (= 0.0.1)
+    - FBusiness/Common/Address/VModel (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Address/View (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Common/Address/VModel (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Goods (0.0.1):
+    - FBusiness/Common/Goods/View (= 0.0.1)
+    - FBusiness/Common/Goods/VModel (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Goods/View (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Common/Goods/VModel (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/HouseKeeping (0.0.1):
+    - FBusiness/Common/HouseKeeping/View (= 0.0.1)
+    - FBusiness/Common/HouseKeeping/VModel (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/HouseKeeping/View (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Common/HouseKeeping/VModel (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Message (0.0.1):
+    - FBusiness/Common/Message/View (= 0.0.1)
+    - FBusiness/Common/Message/VModel (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Message/View (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Common/Message/VModel (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Order (0.0.1):
+    - FBusiness/Common/Order/View (= 0.0.1)
+    - FBusiness/Common/Order/VModel (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Order/View (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Common/Order/VModel (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Search (0.0.1):
+    - FBusiness/Common/Search/View (= 0.0.1)
+    - FBusiness/Common/Search/VModel (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Search/View (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Common/Search/VModel (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Splash (0.0.1):
+    - FBusiness/Common/Splash/View (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Splash/View (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Config (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/AppVersion
+    - SwiftX/OpenSDK/Alipay
+    - SwiftX/OpenSDK/Baidu/Location
+    - SwiftX/OpenSDK/Baidu/Map
+    - SwiftX/OpenSDK/JPush
+    - SwiftX/OpenSDK/QQ
+    - SwiftX/OpenSDK/WeChat
+    - SwiftX/OpenSDK/Weibo
+  - FBusiness/Home (0.0.1):
+    - FBusiness/Common
+    - FBusiness/Home/Model (= 0.0.1)
+    - FBusiness/Home/View (= 0.0.1)
+    - FBusiness/Home/VModel (= 0.0.1)
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Home/Model (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+  - FBusiness/Home/View (0.0.1):
+    - FBusiness/Common
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Home/VModel (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Login (0.0.1):
+    - FBusiness/Login/Model (= 0.0.1)
+    - FBusiness/Login/View (= 0.0.1)
+    - FBusiness/Login/VModel (= 0.0.1)
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Login/Model (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+  - FBusiness/Login/View (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Login/VModel (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Mine (0.0.1):
+    - FBusiness/Common
+    - FBusiness/Mine/View (= 0.0.1)
+    - FBusiness/Mine/VModel (= 0.0.1)
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Mine/View (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Mine/VModel (0.0.1):
+    - FBusiness/Common
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - Kingfisher (5.2.0)
+  - MJRefresh (3.1.15.7)
+  - Realm (3.14.0):
+    - Realm/Headers (= 3.14.0)
+  - Realm/Headers (3.14.0)
+  - RealmSwift (3.14.0):
+    - Realm (= 3.14.0)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - Segmentio (3.3)
+  - SnapKit (4.2.0)
+  - SwiftX/AppVersion (1.0.0):
+    - SwiftX/Extensions
+    - SwiftX/JSON
+    - SwiftX/Network
+  - SwiftX/Cache (1.0.0)
+  - SwiftX/Core (1.0.0)
+  - SwiftX/Extensions (1.0.0)
+  - SwiftX/Globals (1.0.0)
+  - SwiftX/JSON (1.0.0)
+  - SwiftX/Network (1.0.0)
+  - SwiftX/NetworkRx (1.0.0):
+    - RxSwift
+    - SwiftX/Network
+  - SwiftX/OpenSDK/Alipay (1.0.0):
+    - SwiftX/Core
+  - SwiftX/OpenSDK/Baidu/Location (1.0.0):
+    - SwiftX/Core
+    - SwiftX/Extensions
+    - SwiftX/Globals
+    - SwiftX/View
+  - SwiftX/OpenSDK/Baidu/Map (1.0.0):
+    - SwiftX/Core
+    - SwiftX/Extensions
+    - SwiftX/Globals
+    - SwiftX/View
+  - SwiftX/OpenSDK/JPush (1.0.0):
+    - SwiftX/Core
+  - SwiftX/OpenSDK/QQ (1.0.0):
+    - SwiftX/Core
+  - SwiftX/OpenSDK/WeChat (1.0.0):
+    - SwiftX/Core
+    - SwiftX/JSON
+    - SwiftX/Network
+  - SwiftX/OpenSDK/Weibo (1.0.0):
+    - SwiftX/Core
+  - SwiftX/ThirdParty/Kingfisher (1.0.0):
+    - Kingfisher
+  - SwiftX/ThirdParty/Realm (1.0.0):
+    - RealmSwift (= 3.14.0)
+  - SwiftX/ThirdParty/Toaster (1.0.0):
+    - Toaster
+  - SwiftX/View (1.0.0):
+    - SwiftX/View/Base (= 1.0.0)
+    - SwiftX/View/Custom (= 1.0.0)
+    - SwiftX/View/Hybird (= 1.0.0)
+    - SwiftX/View/QRCode (= 1.0.0)
+  - SwiftX/View/Base (1.0.0)
+  - SwiftX/View/Custom (1.0.0)
+  - SwiftX/View/Hybird (1.0.0)
+  - SwiftX/View/QRCode (1.0.0):
+    - SwiftX/Extensions
+  - Toaster (2.2.0)
+
+DEPENDENCIES:
+  - FBusiness/Base (from `../`)
+  - FBusiness/Car (from `../`)
+  - FBusiness/Category (from `../`)
+  - FBusiness/Config (from `../`)
+  - FBusiness/Home (from `../`)
+  - FBusiness/Login (from `../`)
+  - FBusiness/Mine (from `../`)
+  - SwiftX/Cache (from `../../SwiftX`)
+  - SwiftX/Globals (from `../../SwiftX`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Kingfisher
+    - MJRefresh
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - Segmentio
+    - SnapKit
+  trunk:
+    - Realm
+    - RealmSwift
+    - Toaster
+
+EXTERNAL SOURCES:
+  FBusiness:
+    :path: "../"
+  SwiftX:
+    :path: "../../SwiftX"
+
+SPEC CHECKSUMS:
+  FBusiness: 6268b0301ce9c1532b13b5013329db8d2ce5b4b3
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Realm: 221b25919bb5a010a3c597d707f8df3492dcd93a
+  RealmSwift: 28f22dfa6a27b9a778cfb09471558b6afcf1022c
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  Segmentio: 4ff49aa4f4c916998c0d886c549ce62ca9eae251
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftX: a5d7f544e163e26bd4f87c965aff54be7b62fc29
+  Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
+
+PODFILE CHECKSUM: 9beecf9daf600d6cdc3bc817687c77e984bfbaef
+
+COCOAPODS: 1.8.4

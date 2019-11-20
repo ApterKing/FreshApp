@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OrderMemoInputView" customModule="FBusiness" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.0099999997764825821" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3CE-Ku-6Sf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W66-cd-9qz">
+                    <rect key="frame" x="0.0" y="527" width="375" height="140"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1xW-hO-uWT">
+                            <rect key="frame" x="20" y="15" width="335" height="105"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入您的备注" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lc-3J-THA">
+                            <rect key="frame" x="25" y="23" width="100" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="1xW-hO-uWT" firstAttribute="leading" secondItem="W66-cd-9qz" secondAttribute="leading" constant="20" id="I6C-cY-GRT"/>
+                        <constraint firstAttribute="trailing" secondItem="1xW-hO-uWT" secondAttribute="trailing" constant="20" id="NfZ-DG-LZs"/>
+                        <constraint firstItem="1lc-3J-THA" firstAttribute="leading" secondItem="1xW-hO-uWT" secondAttribute="leading" constant="5" id="cVM-ol-QQG"/>
+                        <constraint firstAttribute="height" constant="140" id="cWA-bd-ac1"/>
+                        <constraint firstItem="1lc-3J-THA" firstAttribute="top" secondItem="1xW-hO-uWT" secondAttribute="top" constant="8" id="kLu-8C-eeF"/>
+                        <constraint firstAttribute="bottom" secondItem="1xW-hO-uWT" secondAttribute="bottom" constant="20" id="mKl-Ka-fNq"/>
+                        <constraint firstItem="1xW-hO-uWT" firstAttribute="top" secondItem="W66-cd-9qz" secondAttribute="top" constant="15" id="y3T-1V-cv3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3CE-Ku-6Sf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7lA-5m-poG"/>
+                <constraint firstAttribute="trailing" secondItem="W66-cd-9qz" secondAttribute="trailing" id="8QO-Xb-q2y"/>
+                <constraint firstAttribute="trailing" secondItem="3CE-Ku-6Sf" secondAttribute="trailing" id="E7o-KL-hKN"/>
+                <constraint firstAttribute="bottom" secondItem="3CE-Ku-6Sf" secondAttribute="bottom" id="NiB-Sa-tyX"/>
+                <constraint firstAttribute="bottom" secondItem="W66-cd-9qz" secondAttribute="bottom" id="cR9-9X-EbK"/>
+                <constraint firstItem="3CE-Ku-6Sf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cfl-Vg-peE"/>
+                <constraint firstItem="W66-cd-9qz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lko-ue-pqH"/>
+            </constraints>
+            <connections>
+                <outlet property="contentBottomConstraint" destination="cR9-9X-EbK" id="XGl-Uf-xgG"/>
+                <outlet property="contentView" destination="W66-cd-9qz" id="Sgr-5s-ucr"/>
+                <outlet property="opacityView" destination="3CE-Ku-6Sf" id="Uhp-dt-Ta0"/>
+                <outlet property="placeholderLabel" destination="1lc-3J-THA" id="cy2-ER-dEx"/>
+                <outlet property="textView" destination="1xW-hO-uWT" id="7yq-G9-T2y"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="-60.719640179910051"/>
+        </view>
+    </objects>
+</document>

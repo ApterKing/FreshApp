@@ -1,0 +1,197 @@
+PODS:
+  - FBusiness/Base (0.0.1):
+    - FBusiness/Base/Http (= 0.0.1)
+    - FBusiness/Base/Model (= 0.0.1)
+    - FBusiness/Base/Utilities (= 0.0.1)
+    - FBusiness/Base/View (= 0.0.1)
+    - FBusiness/Base/VModel (= 0.0.1)
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Base/Http (0.0.1):
+    - FBusiness/Base/Utilities
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/JSON
+    - SwiftX/NetworkRx
+  - FBusiness/Base/Model (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+  - FBusiness/Base/Utilities (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Base/View (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - Segmentio
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/Globals
+    - SwiftX/ThirdParty/Kingfisher
+    - SwiftX/ThirdParty/Toaster
+    - SwiftX/View
+  - FBusiness/Base/VModel (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Goods (0.0.1):
+    - FBusiness/Common/Goods/View (= 0.0.1)
+    - FBusiness/Common/Goods/VModel (= 0.0.1)
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/Common/Goods/View (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/Common/Goods/VModel (0.0.1):
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/DConfig (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/OpenSDK/Baidu/Location
+    - SwiftX/OpenSDK/Baidu/Map
+  - FBusiness/DHome (0.0.1):
+    - FBusiness/Common/Goods
+    - FBusiness/DHome/Model (= 0.0.1)
+    - FBusiness/DHome/View (= 0.0.1)
+    - FBusiness/DHome/VModel (= 0.0.1)
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/DHome/Model (0.0.1):
+    - FBusiness/Common/Goods
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/DHome/View (0.0.1):
+    - FBusiness/Common/Goods
+    - Kingfisher
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/DHome/VModel (0.0.1):
+    - FBusiness/Common/Goods
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/DLogin (0.0.1):
+    - FBusiness/DLogin/Model (= 0.0.1)
+    - FBusiness/DLogin/View (= 0.0.1)
+    - FBusiness/DLogin/VModel (= 0.0.1)
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - FBusiness/DLogin/Model (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+  - FBusiness/DLogin/View (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+    - SwiftX/Extensions
+    - SwiftX/View
+  - FBusiness/DLogin/VModel (0.0.1):
+    - MJRefresh
+    - RxCocoa
+    - SnapKit
+  - Kingfisher (5.2.0)
+  - MJRefresh (3.1.15.7)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - Segmentio (3.3)
+  - SnapKit (4.2.0)
+  - SwiftX/Cache (1.0.0)
+  - SwiftX/Core (1.0.0)
+  - SwiftX/Extensions (1.0.0)
+  - SwiftX/Globals (1.0.0)
+  - SwiftX/JSON (1.0.0)
+  - SwiftX/Network (1.0.0)
+  - SwiftX/NetworkRx (1.0.0):
+    - RxSwift
+    - SwiftX/Network
+  - SwiftX/OpenSDK/Baidu/Location (1.0.0):
+    - SwiftX/Core
+    - SwiftX/Extensions
+    - SwiftX/Globals
+    - SwiftX/View
+  - SwiftX/OpenSDK/Baidu/Map (1.0.0):
+    - SwiftX/Core
+    - SwiftX/Extensions
+    - SwiftX/Globals
+    - SwiftX/View
+  - SwiftX/ThirdParty/Kingfisher (1.0.0):
+    - Kingfisher
+  - SwiftX/ThirdParty/Toaster (1.0.0):
+    - Toaster
+  - SwiftX/View (1.0.0):
+    - SwiftX/View/Base (= 1.0.0)
+    - SwiftX/View/Custom (= 1.0.0)
+    - SwiftX/View/Hybird (= 1.0.0)
+    - SwiftX/View/QRCode (= 1.0.0)
+  - SwiftX/View/Base (1.0.0)
+  - SwiftX/View/Custom (1.0.0)
+  - SwiftX/View/Hybird (1.0.0)
+  - SwiftX/View/QRCode (1.0.0):
+    - SwiftX/Extensions
+  - Toaster (2.1.1)
+
+DEPENDENCIES:
+  - FBusiness/Base (from `../`)
+  - FBusiness/DConfig (from `../`)
+  - FBusiness/DHome (from `../`)
+  - FBusiness/DLogin (from `../`)
+  - SwiftX/Cache (from `../../`)
+  - SwiftX/Globals (from `../../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - MJRefresh
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - Segmentio
+    - SnapKit
+    - Toaster
+
+EXTERNAL SOURCES:
+  FBusiness:
+    :path: "../"
+  SwiftX:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  FBusiness: bccdf5c913785eb0a0dafe33af344c89dbbba425
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  Segmentio: 4ff49aa4f4c916998c0d886c549ce62ca9eae251
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftX: 4548eeedf25801b488c5399aca8ba54938958f43
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+
+PODFILE CHECKSUM: f7b8a4911aab30d9f7615c853b2348d21f8d81f3
+
+COCOAPODS: 1.6.1

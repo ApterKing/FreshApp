@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderPayResultViewController" customModule="FBusiness" customModuleProvider="target">
+            <connections>
+                <outlet property="backToHomeButton" destination="VyO-W4-xXS" id="fzn-26-Yz8"/>
+                <outlet property="checkButton" destination="qL0-I5-j2v" id="MHz-Xn-Eg9"/>
+                <outlet property="checkHeightConstraint" destination="eu5-aX-gln" id="hEP-qF-9kX"/>
+                <outlet property="checkTopConstraint" destination="dt6-cy-9CW" id="dk5-WJ-H8k"/>
+                <outlet property="imageView" destination="KcC-GN-Vgf" id="2QW-ff-U95"/>
+                <outlet property="promptLabel" destination="bV8-4o-j44" id="kug-cP-Yj7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_order_completed_empty.png" translatesAutoresizingMaskIntoConstraints="NO" id="KcC-GN-Vgf">
+                    <rect key="frame" x="117" y="100" width="141" height="141"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="KcC-GN-Vgf" secondAttribute="height" id="N7h-Av-zKO"/>
+                        <constraint firstAttribute="width" constant="141" id="PQu-pv-BRA"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恭喜，下单成功" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bV8-4o-j44">
+                    <rect key="frame" x="133.5" y="281" width="108" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL0-I5-j2v">
+                    <rect key="frame" x="20" y="339" width="335" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="eu5-aX-gln"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="查看订单"/>
+                    <connections>
+                        <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="3PK-Rh-lSx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyO-W4-xXS">
+                    <rect key="frame" x="20" y="404" width="335" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="BLh-bi-IkB"/>
+                    </constraints>
+                    <state key="normal" title="返回首页"/>
+                    <connections>
+                        <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="X5z-I5-sPg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VyO-W4-xXS" firstAttribute="leading" secondItem="qL0-I5-j2v" secondAttribute="leading" id="GWq-9l-4AL"/>
+                <constraint firstItem="KcC-GN-Vgf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="INy-xa-c1J"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qL0-I5-j2v" secondAttribute="trailing" constant="20" id="PI8-wi-2B8"/>
+                <constraint firstItem="VyO-W4-xXS" firstAttribute="top" secondItem="qL0-I5-j2v" secondAttribute="bottom" constant="20" id="SWh-uB-gfa"/>
+                <constraint firstItem="VyO-W4-xXS" firstAttribute="trailing" secondItem="qL0-I5-j2v" secondAttribute="trailing" id="U4A-5v-5m1"/>
+                <constraint firstItem="bV8-4o-j44" firstAttribute="centerX" secondItem="KcC-GN-Vgf" secondAttribute="centerX" id="VRQ-Ql-VcI"/>
+                <constraint firstItem="qL0-I5-j2v" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Yah-R6-94f"/>
+                <constraint firstItem="qL0-I5-j2v" firstAttribute="top" secondItem="bV8-4o-j44" secondAttribute="bottom" constant="40" id="dt6-cy-9CW"/>
+                <constraint firstItem="KcC-GN-Vgf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="oKy-dO-toE"/>
+                <constraint firstItem="bV8-4o-j44" firstAttribute="top" secondItem="KcC-GN-Vgf" secondAttribute="bottom" constant="40" id="xkT-vR-zGM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_order_completed_empty.png" width="227" height="255"/>
+    </resources>
+</document>
